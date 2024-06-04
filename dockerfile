@@ -3,4 +3,4 @@ COPY src/html /usr/share/nginx/html
 
 # DOCUMENTATION
 EXPOSE 80/TCP
-CMD ["nginx", "-g", "daemon off;"] // THIS IS AUTOMATIC
+CMD ["nginx", "-g", "daemon off;"]
